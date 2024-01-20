@@ -1,0 +1,20 @@
+//this is secand largest sum in arrray
+public class ScandLargest {
+    public static void main(String[] args) {
+        int[]arr={1,2,3,5,6,7};
+        for(int i=0;i<=5;i++){
+            System.out.print(arr[i]);
+        }
+        Arrays.sort(arr);
+        System.out.println();
+        System.out.println("this is your sorted arrya");
+
+         for(int i=0;i<=5;i++){
+             System.out.print(arr[i]);
+         }
+
+        System.out.println();
+         System.out.println("the secand largest element in this array is");
+        System.out.println(arr[arr.length-2]);
+    }
+}
